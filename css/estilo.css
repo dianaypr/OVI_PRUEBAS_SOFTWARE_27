@@ -12,6 +12,10 @@
     font-weight: normal;
     font-style: normal;
 }
+h1{
+	color: #005883;
+	font-size: 24px;
+}
 h2{
 	color: #005883;
 	font-size: 16px;
@@ -20,19 +24,26 @@ h3{
 	font-size: 12px;
 }
 body{
-	background: #CEE3F6;
 	font-family: 'franklin_gothic_fsbook_italic',sans-serif;
+	background: url(../img/fondo.jpg)no-repeat fixed center center;
+	background-size: cover;
 }
-div{
+#div{
 	width:960px;
 	margin:15px auto;
 	text-align:left;
+	background: #FFF;
+	border-radius: 20px;
 }
 header{
 	background:#fff;
-	border: 1px solid #999999;
+	/*border: 1px solid #999999;*/
 	padding: 1px;
 	text-align: center;
+	border-radius: 20px;
+}
+header table{
+	border:0px;
 }
 nav{
 	padding: 1px;
@@ -40,7 +51,7 @@ nav{
 	font-size: 16px;
 	background:#005883;
 }
-table{
+nav table{
 	height: 40px;
 }
 nav ul{
@@ -54,7 +65,9 @@ nav ul{
 	display: block;
 }
 .nav li a:hover {
-	background-color: #333333;
+	background-color: #F47920;
+	font-weight: bolder;
+	color: #000;
 }
 .nav > li {
 	float: left;
@@ -81,7 +94,6 @@ section{
 	text-align: justify;
 }
 article{
-	background:#fff;
 	border: 1px solid #005883;
 	padding: 5px;
 	margin-bottom: 20px;
@@ -99,7 +111,6 @@ aside{
 	width:20%;
 	margin:20px 0px;
 	padding:20px;
-	background:#FFF;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
