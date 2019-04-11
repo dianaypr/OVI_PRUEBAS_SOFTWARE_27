@@ -17,8 +17,8 @@
 		</header>
 		<nav>
 			<table>
-				<td>
-					<tr>
+				<tr>
+					<td>
 						<ul class="nav">
 							<li><a href="index.html" title="Inicio">Inicio</a></li>
 							<li><a href="#" title="Lecturas">Lecturas</a>
@@ -45,20 +45,61 @@
 							</li>
 							<li><a href="autores.html" title="Autores">Autores</a></li>
 						</ul>
-					</tr>
-				</td>
+					</td>
+				</tr>
 			</table>	
 		</nav>
 		<section>
-			<h1>Lecturas</h1>
+			<h1>Lectura 2</h1>
 			<article>
-				<h2>Lectura 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2>Técnica de caja blanca</h2>
+				<p id="imagen">
+					<img src="img/cajablanca.png"><br>
+					<small>Tomado de: Fiestas, J. (2014). QA: Pruebas para asegurar la calidad del producto software (III). Recuperado de https://blog.elevenpaths.com/2014/12/qa-pruebas-para-asegurar-la-calidad-del.html</small>
+				</p>
+				<p>Las pruebas de caja blanca, se enfocan en el funcionamiento interno del proyecto y cumplen entre otras con las siguientes características:</p>
+				<ul>
+					<li>Pruebas en que se conoce el código a probar.</li>
+					<li>Diagramas de flujo y controles de cada procedimiento o método.</li>
+					<li>Se procura ejecutar y probar cada elemento del código.</li>
+					<li>Se realiza un seguimiento a los flujos internos, condicionales, ciclos, métodos, tipos de datos y algoritmos.</li>
+				</ul>
+				<p>Dentro de las clases de pruebas ejecutadas mediante la técnica, se encuentran:</p>
+				<ul>
+					<li>Pruebas de cubrimiento.</li>
+					<li>pruebas de condiciones.</li>
+					<li>Pruebas de bucles.</li>
+				</ul>
+				<h4>Pruebas de cubrimiento</h4>
+				<p>Permiten ejecutar al menos una vez cada sentencia, para la cual se necesitan varios casos de prueba que permitan:</p>
+				<ul>
+					<li>Determinar posibles “caminos” independientes.</li>
+					<li>Que cada condición se cumpla en un caso y en otro no. En general, se necesitan tantos casos como condiciones, más uno (número ciclomático).</li>
+					<li>Determinar la imposibilidad de cubrir el 100%.</li>
+					<li>Descubrir el código que nunca se ejecuta: condiciones imposibles.</li>
+				</ul>
+				<p>Ejemplo de estas pruebas, son la detección y notificación de errores internos en un código sin errores.</p>
+				<h4>Pruebas de condiciones</h4>
+				<p>Este tipo de pruebas, permiten cumplir o no, partes de una condición para ello, se necesitan varios casos de prueba que permitan:</p>
+				<ul>
+					<li>Determinar expresiones simples en las condiciones.</li>
+					<li>Una por cada operando lógico o comparación.</li>
+					<li>Cada expresión simple debe cumplirse en un caso y en otro no, siendo decisiva en el resultado.</li>
+					<li>Determinar la imposibilidad de cubrir el 100%.</li>
+					<li>Validar y probar expresiones simples no independientes.</li>
+				</ul>
+				<h4>Pruebas de bucles</h4>
+				<p>Se utilizan para conseguir números de repeticiones especiales a través de bucles simples que permitan:</p>
+				<ul>
+					<li>Repetir cero, una y dos veces</li>
+					<li>Repetir un número medio (típico) de veces</li>
+					<li>Repetir el máximo-1, máximo y ¡máximo +1!</li>
+				</ul>
+				<p>Bucles anidados</p>
+				<ul>
+					<li>Repetir un número medio (típico) los bucles internos, el mínimo los externos, y variar las repeticiones del bucle intermedio ensayado.</li>
+				</ul>
+				<p>Ensayarlo con cada nivel de anidamiento.</p>
 			</article>
 		</section>
 		<aside>

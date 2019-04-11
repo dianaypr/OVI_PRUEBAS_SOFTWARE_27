@@ -125,6 +125,16 @@ footer{
 	padding:5px;
 	border-top: 1px solid #005883;
 }
-#video, #actividad{
+#video, #actividad, #imagen, #pdf{
 	text-align: center;
+}
+#foto{
+	width: 70%;
+}
+#items{
+	color: #005883;
+	font-weight: bold;
+}
+#autor{
+	width: 70%;
 }
